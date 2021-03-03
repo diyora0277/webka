@@ -1,0 +1,61 @@
+.item {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  margin: 40px 0px;
+  border: 1px gray solid;
+  border-radius: 5px;
+  box-shadow: 0 0 15px gray;
+  padding: 30px;
+  background-color:#f5f5f5;
+}
+
+.item img {
+  width: 200px;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border: 2px solid rgb(209, 209, 209);
+}
+
+.info {
+  flex: 1 0 10%;
+  font-size: 1.3em;
+}
+
+.rating {
+  flex-basis: 100%;
+}
+
+.big-space {
+  word-spacing: 10px;
+}
+
+.button {
+  margin-top: 15px;
+  height: 30px;
+  width: 90px;
+  background-color: #54A9EB;
+  border-radius: 5px;
+  padding: 0 9px 0 3px;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: block;
+  font-size: 16px;
+  line-height: 0;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tg-logo {
+  background: url('https://telegram.org/img/WidgetButton_LogoSmall.png');
+  width: 30px;
+  height: 30px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: middle;
+}

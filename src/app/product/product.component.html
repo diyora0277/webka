@@ -1,0 +1,15 @@
+<div class="item">
+  <img [src]="item.imgLink" alt="Product image">
+  <div class="info">
+    <h3>{{item.name}}</h3>
+    <p>{{item.description}}</p>
+  </div>
+  <div class="rating">
+    <span class="big-space">Rating: </span>
+    <span><strong>{{item.rating}}</strong> out of 5</span>
+  </div>
+  <a class="button" [href]="getTelegramLink()" target="__blank">
+    <span class="tg-logo"></span>
+    <span>Share</span>
+  </a>
+</div>
