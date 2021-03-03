@@ -1,0 +1,12 @@
+.container {
+    width: 930px;
+    padding: 0px;
+    margin-left: 300px;
+    background-color: aquamarine;
+    border-left: 3px solid saddlebrown;
+    border-right: 3px solid saddlebrown;
+}
+
+.site {
+    background: linear-gradient(45deg, yellow, deepskyblue);
+}
