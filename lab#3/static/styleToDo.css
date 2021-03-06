@@ -1,0 +1,96 @@
+body{
+	background-color:seashell;
+}
+#top{
+    width: 1200px;
+    height: 30px;
+    background-color: slateblue;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-left: 70px;
+}
+h1{
+    font-style:italic;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 1px;
+}
+form{
+	min-height:60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+form button, form input {
+	font-size: 20px;
+	padding:0.5em;
+}
+.todo-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.todo-list{
+	width: 47%;
+	list-style:inside;
+}
+.todo{
+	margin: 2em;
+	background-color: white;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.todo li{
+	flex:5;
+}
+#Input{
+    display: flex;
+    width: 400px;
+    height: 35px;
+    border-radius: 4px;
+}
+#Add{
+    margin-left: 20px;
+    display: flexbox;
+    text-align: center;
+    background-color:#1877f2;
+    color:white;
+    width: 65px;
+    height: 35px;
+    padding-bottom: 20px;
+    border-radius: 4px;
+}
+.todo-object{
+	padding: 5em, 1em;
+
+}
+
+.completed{
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+#todo-remove {
+	border-style: solid;
+	background-color: red;
+	width:90px;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	border-style: solid;
+    pointer-events: none;
+}
+#todo-checked{
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+    pointer-events: none;
+	width:90px;
+	background-color: #1877f2;
+	border-style: solid;
+}
