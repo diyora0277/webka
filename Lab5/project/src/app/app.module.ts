@@ -12,7 +12,7 @@ import { CategoriesListComponent } from './categories-list/categories-list.compo
 
 const routes: Routes = [
   {path: '', component: CategoriesListComponent},
-  {path: 'categories/:categoryId', component:ProductItemComponent},
+  {path: 'categories/:categoryId', component: ProductItemComponent},
   {path: 'categories/:categoryId/:products/:productId', component: ProductDetailsComponent},
 ];
 
@@ -25,7 +25,7 @@ const routes: Routes = [
     TopBarComponent,
     BottomBarComponent,
     CategoriesListComponent
-  ],  
+  ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes)

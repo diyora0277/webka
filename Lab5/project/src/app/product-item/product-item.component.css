@@ -19,8 +19,6 @@ button {
     transition: all 0.3s ease;
 }
 
-
-
 .share-button {
     margin-bottom: 5px;
     margin-right: 10px;
@@ -49,8 +47,8 @@ small {
 
 .like, .rating {
     display: flex;
-    align-items: center; 
-    width: 170px; 
+    align-items: center;
+    width: 170px;
     margin-bottom: 10px;
 }
 
@@ -94,7 +92,7 @@ li {
     border: none;
     color: white;
     background-color:rgba(35,52,72,255);
-    border-radius: 0px;  
+    border-radius: 0px;
 }
 
 .btn-to-left {

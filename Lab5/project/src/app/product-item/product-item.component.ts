@@ -8,9 +8,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./product-item.component.css']
 })
 
-
 export class ProductItemComponent implements OnInit {
-  
   categories = categories;
   products;
   categoryIdFromRoute;
@@ -38,7 +36,7 @@ export class ProductItemComponent implements OnInit {
   onNotify():void {
     window.alert('You will be notified when the product goes on sale');
   }
-  
+
   createRange(rating){
     var items: number[] = [];
     for(var i = 1; i <= Math.round(rating); i++){
@@ -46,7 +44,6 @@ export class ProductItemComponent implements OnInit {
     }
     return items;
   }
-
   openLink(link) {
     window.open(link);
   }
@@ -67,7 +64,6 @@ export class ProductItemComponent implements OnInit {
   like(index) {
     if (this.products[index].isLiked === false) {
       this.products[index].like++;
-      
     } else {
       this.products[index].like--;
     }

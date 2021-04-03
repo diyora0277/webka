@@ -14,7 +14,6 @@ describe('ProductItemComponent', () => {
   });
 
   beforeEach(() => {
-  
     fixture = TestBed.createComponent(ProductItemComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
